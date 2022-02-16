@@ -8,7 +8,7 @@ import pygame
 
 pygame.init()
 pygame.mixer.init()
-Sound = pygame.mixer.Sound('C:\\Users\\arist\\Desktop\School\\SMATIS\\glass_ping.wav')
+Sound = pygame.mixer.Sound('glass_ping.wav')
 
 url = "http://127.0.0.1:5000/accounts"
 headers = {"Content-Type":"application/json"}
